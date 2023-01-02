@@ -1,0 +1,14 @@
+mydict={
+    'Prod_ID':[101,102,103,104,105,106,107],
+    'Prod_name':['Watch','Bag','Shoes','Smartphone','Books','Oil','Laptop'],
+    'Category':['Fashion','Fashion','Fashion','Electronics','Study','Grocery','Electronics'],
+    'Price':[299.0,1350.50,2999.0,14999.0,145.0,110.0,79999.0],
+    'City':['Delhi','Mumbai','Chennai','Kolkatta','Delhi','Chennai','Bengalore']
+}
+
+
+exam_data  = {'name': ['Sonu', 'Raja', 'Ketaki', 'Rupa', 'Radha', 'Reshma', 'Keshav', 'Narendra', 'Rani', 'Kittu'],
+        'score': [12.5, 9, 16.5, np.nan, 9, 20, 14.5, np.nan, 8, 19],
+        'attempts': [1, 3, 2, 3, 2, 3, 1, 1, 2, 1],
+        'qualify': ['yes', 'no', 'yes', 'no', 'no', 'yes', 'yes', 'no', 'no', 'yes']}
+labels = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']

@@ -1,0 +1,237 @@
+Python Program to get Maximum product of elements of list in a 2D list
+Input :  [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+Output : 504
+Explanation:1*2*3 = 6, 4*5*6 = 120, 7*8*9 = 504
+Since maximum is 504.
+
+-------------------------------------------------------------------
+
+Write a program that contains a function that has one parameter, n, representing an integer
+greater than 0. The function should return n! (n factorial). Then write a main function that calls this
+function with the values 1 through 20, one at a time, printing the returned results. This is what your
+output should look like:
+1 1
+2 2
+3 6
+4 24
+5 120
+6 720
+7 5040
+8 40320
+9 362880
+------------------------------------------------------------------
+
+
+Sum of number digits in List
+The original list is : [12, 67, 98, 34]
+List Integer Summation : [3, 13, 17, 7]
+
+
+------------------------------------------------------------------
+Program to print duplicates from a list of integers
+
+Input :  list = [-1, 1, -1, 8]
+Output : output_list = [-1]
+
+Input : list = [10, 20, 30, 20, 20, 30, 40, 50, -20, 60, 60, -20, -20]
+Output : output_list = [20, 30, -20, 60]
+
+------------------------------------------------------------------
+Uncommon elements in Lists of List
+The original list 1 : [[1, 2], [3, 4], [5, 6]]
+The original list 2 : [[3, 4], [5, 7], [1, 2]]
+The uncommon of two lists is : [[5, 6], [5, 7]]
+
+------------------------------------------------------------------
+
+Reverse Row sort in Lists of List
+The original list is : [[4, 1, 6], [7, 8], [4, 10, 8]]
+The reverse sorted Matrix is : [[6, 4, 1], [8, 7], [10, 8, 4]]
+------------------------------------------------------------------
+
+Python program to find the sum of a Sublist
+The original list is : [[4, 1, 6], [7, 8], [4, 10, 8]]
+result is [11,15,22]
+------------------------------------------------------------------
+Python Program to Square Each Odd Number in a List using List Comprehension
+data=[1,2,3,4,5,6,7]
+[1, 9, 25, 49]       
+---------------------------------------------------------------
+Python program to print even length words in a string
+Input: s = "This is a python language"
+Output: This is python language
+---------------------------------------------------------
+Python program to capitalize the first and last character of each word in a string
+Given the string, the task is to capitalise the first and last character of each word in a string. Examples:
+
+Input: hello world 
+Output: HellO WorlD
+---------------------------------------------------------
+
+Python program to check if a string has at least one letter and one number
+Given a string in Python. The task is to check whether the string has at least one letter(character) and one number. Return “True” if the given string full fill above condition else return “False” (without quotes).
+Examples: 
+
+Input: welcome2ourcountry34
+Output: True
+
+Input: stringwithoutnum
+Output: False
+----------------------------------------------------------------------
+returns a list of Least Frequent Character in String
+string="welcometoknowit"
+least frequency char :['l','c','m', 'k', 'n', 'i']
+
+
+---------------------------------------------------
+returns a list of Maximum  Frequent Character in String
+string="welcometoknowit"
+max frequency char :['o']
+
+-------------------------------------------
+returns a list of  Odd Frequency Characters
+string="welcometoknowit"
+odd frequency char :[ 'l', 'c', 'o', 'm', 'k', 'n', 'i']
+------------------------------------------------------
+
+Given a String list, extract frequency of specific characters in the whole strings list.
+
+Input : test_list = [“geeksforgeeks is best for geeks”], chr_list = [‘e’, ‘b’, ‘g’, ‘f’] 
+
+Output : {‘g’: 3, ‘e’: 7, ‘b’: 1, ‘f’ : 2} 
+-----------------------------------------------------------------------
+
+1. Consider the following string mySubject:
+ mySubject = "Computer Science"
+ What will be the output of the following string operations :
+i. print(mySubject[0:len(mySubject)])
+ii. print(mySubject[-7:-1])
+iii. print(mySubject[::2])
+iv. print(mySubject[len(mySubject)-1])
+v. print(2*mySubject)
+vi. print(mySubject[::-2])
+vii. print(mySubject[:3] + mySubject[3:])
+viii. print(mySubject.swapcase())
+ix. print(mySubject.startswith('Comp'))
+x. print(mySubject.isalpha())
+___________________________________________________________________
+2. Consider the following string myAddress:
+ myAddress = "WZ-1,New Ganga Nagar,New Delhi"
+ What will be the output of following string operations :
+i. print(myAddress.lower())
+ii. print(myAddress.upper())
+iii. print(myAddress.count('New'))
+iv. print(myAddress.find('New'))
+v. print(myAddress.rfind('New'))
+vi. print(myAddress.split(','))
+vii. print(myAddress.split(' '))
+viii. print(myAddress.replace('New','Old'))
+ix. print(myAddress.partition(','))
+x. print(myAddress.index('Agra'))
+___________________________________________________________________
+1. Write a program to input line(s) of text from the user
+until enter is pressed. Count the total number of
+characters in the text (including white spaces),total
+number of alphabets, total number of digits, total
+number of special symbols and total number of
+words in the given text. (Assume that each word is
+separated by one space).
+___________________________________________________________________
+
+2. Write a user defined function to convert a string
+with more than one word into title case string where
+string is passed as parameter. (Title case means
+that the first letter of each word is capitalised)
+___________________________________________________________________
+
+3. Write a function deleteChar() which takes two
+parameters one is a string and other is a character.
+The function should create a new string after
+deleting all occurrences of the character from the
+string and return the new string.
+___________________________________________________________________
+4. Input a string having some digits. Write a function
+to return the sum of digits present in this string.
+___________________________________________________________________
+5. Write a function that takes a sentence as an input
+parameter where each word in the sentence is
+separated by a space. The function should replace
+each blank with a hyphen and then return the
+modified sentence.
+___________________________________________________________________
+
+The record of a student (Name, Roll No.,
+Marks in five subjects and percentage of
+marks) is stored in the following list:
+stRecord = ['Raman','A-36',[56,98,99,72,69],
+ 78.8]
+Write Python statements to retrieve the following
+information from the list stRecord.
+a) Percentage of the student
+b) Marks in the fifth subject
+c) Maximum marks of the student
+d) Roll no. of the student
+e) Change the name of the student from
+ ‘Raman’ to ‘Raghav’
+___________________________________________________________________
+1. Write a program to find the number of times an
+element occurs in the list.
+___________________________________________________________________
+2. Write a program to read a list of n integers (positive
+NOTES
+2022-23
+206 COMPUTER SCIENCE – CLASS XI
+as well as negative). Create two new lists, one
+having all positive numbers and the other having
+all negative numbers from the given list. Print all
+three lists.
+___________________________________________________________________
+3. Write a function that returns the largest element of
+the list passed as parameter.
+___________________________________________________________________
+4. Write a function to return the second largest number
+from a list of numbers.
+___________________________________________________________________
+5. Write a program to read a list of n integers and find
+their median.
+Note: The median value of a list of values is the
+middle one when they are arranged in order. If there
+are two middle values then take their average.
+Hint: You can use an built-in function to sort the list
+___________________________________________________________________
+6. Write a program to read a list of elements. Modify
+this list so that it does not contain any duplicate
+elements, i.e., all elements occurring multiple times
+in the list should appear only once.
+___________________________________________________________________
+7. Write a program to read a list of elements. Input
+an element from the user that has to be inserted in
+the list. Also input the position at which it is to be
+inserted. Write a user defined function to insert the
+element at the desired position in the list.
+___________________________________________________________________
+8. Write a program to read elements of a list.
+a) The program should ask for the position of
+the element to be deleted from the list. Write
+a function to delete the element at the desired
+position in the list.
+b) The program should ask for the value of the
+element to be deleted from the list. Write a
+function to delete the element of this value
+from the list.
+___________________________________________________________________
+
+Write a program to input your friend’s, names and their
+phone numbers and store them in the dictionary as the
+key-value pair. Perform the following operations on the
+dictionary:
+a) Display the Name and Phone number for all your
+friends.
+b) Add a new key-value pair in this dictionary and
+display the modified dictionary
+2022-23
+78 Informatics Practices – Class XI
+c) Delete a particular friend from the dictionary
+d) Modify the phone number of an existing friend
+e) Check if a friend is present in the dictionary or not
+f) Display the dictionary in sorted order of names

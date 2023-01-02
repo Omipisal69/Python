@@ -1,0 +1,61 @@
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+C:\Users\admin>python --version
+Python 3.10.6
+
+C:\Users\admin>python
+Python 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (
+AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> a=5
+>>> a
+5
+>>> type(a)
+<class 'int'>
+>>> a=12+6j
+>>> a
+(12+6j)
+>>> type(a)
+<class 'complex'>
+>>> lst=[10,20,30]
+>>> lst
+[10, 20, 30]
+>>> a=10
+>>> a in lst
+True
+>>> name=input("Enter Name")
+Enter NameSheetal
+>>> name
+'Sheetal'
+>>> name = Hi+ input("enter name")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'Hi' is not defined
+>>> name = "Hi"+ input("enter name")
+enter nameSarika
+>>> name
+'HiSarika'
+>>> a= input("Enter no")
+Enter no5
+>>> a
+'5'
+>>> a=int(a)
+>>> a
+5
+>>> print(int(input("No1: "))+int(input("No2: ")))
+No1: 4
+No2: 5
+9
+>>> a,b=10,20
+>>> a
+10
+>>> b
+20
+>>> a,b=b,a
+>>> a
+20
+>>> b
+10
+>>> ^Z
+

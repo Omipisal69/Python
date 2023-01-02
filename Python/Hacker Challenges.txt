@@ -1,0 +1,51 @@
+Day 1: Python Basics
+https://www.hackerrank.com/challenges/write-a-function?isFullScreen=true
+https://www.hackerrank.com/challenges/python-division?isFullScreen=true
+https://www.hackerrank.com/challenges/python-arithmetic-operators/problem?isFullScreen=true
+https://www.hackerrank.com/challenges/py-hello-world?isFullScreen=true
+
+Day 2: (Conditional statement)
+https://www.hackerrank.com/challenges/finding-the-percentage/problem?isFullScreen=true
+
+(Iterative Statement)
+https://www.hackerrank.com/challenges/python-loops?isFullScreen=true
+
+
+Day 3: String
+https://www.hackerrank.com/challenges/python-print/problem?isFullScreen=true
+https://www.hackerrank.com/challenges/validating-the-phone-number/problem?isFullScreen=true
+https://www.hackerrank.com/challenges/capitalize/problem?isFullScreen=true
+
+https://www.hackerrank.com/challenges/swap-case?isFullScreen=true
+https://www.hackerrank.com/challenges/python-string-split-and-join?isFullScreen=true
+https://www.hackerrank.com/challenges/whats-your-name?isFullScreen=true
+https://www.hackerrank.com/challenges/python-mutations?isFullScreen=true
+
+Day 4: List
+https://www.hackerrank.com/challenges/find-second-maximum-number-in-a-list/problem?isFullScreen=true
+https://www.hackerrank.com/challenges/itertools-product/problem?isFullScreen=true
+https://www.hackerrank.com/challenges/python-lists/problem?isFullScreen=true
+
+Day5 : Dict
+https://www.hackerrank.com/challenges/finding-the-percentage/problem?isFullScreen=true
+
+Set:
+https://www.hackerrank.com/challenges/py-set-add?isFullScreen=true
+
+Day 6: Functions
+https://www.hackerrank.com/challenges/input/problem?isFullScreen=true
+
+https://www.hackerrank.com/challenges/python-eval?isFullScreen=true
+
+
+Day 9:
+
+https://www.hackerrank.com/challenges/np-shape-reshape?isFullScreen=true
+https://www.hackerrank.com/challenges/np-shape-reshape/problem?isFullScreen=true
+https://www.hackerrank.com/challenges/np-sum-and-prod/problem?isFullScreen=true
+https://www.hackerrank.com/challenges/np-concatenate/problem?isFullScreen=true
+https://www.hackerrank.com/challenges/np-array-mathematics/problem?isFullScreen=true
+https://www.hackerrank.com/challenges/np-min-and-max/problem?isFullScreen=true
+https://www.hackerrank.com/challenges/np-zeros-and-ones/problem?isFullScreen=true
+https://www.hackerrank.com/challenges/np-transpose-and-flatten/problem?isFullScreen=true
+https://www.hackerrank.com/challenges/np-arrays/problem?isFullScreen=true

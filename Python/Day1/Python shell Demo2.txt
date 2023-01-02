@@ -1,0 +1,43 @@
+C:\DBDA\Python\Day1>python Hello.py
+Hello World!
+
+C:\DBDA\Python\Day1>python
+Python 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> a,b,c = 10,20,30
+>>> a
+10
+>>> b
+20
+>>> c
+30
+>>> a,b =10
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: cannot unpack non-iterable int object
+>>> a,b=10,20,30
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: too many values to unpack (expected 2)
+>>> a,*b=10,20,30
+>>> a
+10
+>>> b
+[20, 30]
+>>> type(b)
+<class 'list'>
+>>> *a,b=10,20,30
+>>> a
+[10, 20]
+>>> b
+30
+>>> *a,*b=10,20,30
+  File "<stdin>", line 1
+SyntaxError: multiple starred expressions in assignment
+>>> Id ,name, salary= 100,"Rutu",4000.67
+>>> print(Id,name,salary)
+100 Rutu 4000.67
+>>> print(Id,name,salary,sep="-")
+100-Rutu-4000.67
+>>> print(Id,name,salary,sep="-",end="*****")
+100-Rutu-4000.67*****>>>
